@@ -1,0 +1,12 @@
+name = "wp-cms-edge-router"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# Optional: KV namespace for persistent webhook data store
+# [[kv_namespaces]]
+# binding = "PAGE_STORE"
+# id = "your-kv-namespace-id"
+
+[vars]
+CMS_ORIGIN = "https://your-app.vercel.app"
+WP_ORIGIN = "https://your-wordpress-domain.com"
